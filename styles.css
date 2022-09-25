@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Tillana:wght@400;600&display=swap');
+
+:root{
+    --primary-color: #fbbf24;
+    --secondary-color: #fef3c7;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+body {
+    font-family: 'Tillana', cursive;
+    margin: 0px auto;
+    background-image: url("images/binary.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+}
