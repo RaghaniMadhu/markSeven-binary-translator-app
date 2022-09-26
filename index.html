@@ -8,8 +8,22 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    
+  
+  <div class="column">
+    <div class="header">
+      <h3>Binary Translator</h3>
+    </div>
+    <textarea id="txt-input" placeholder="Enter anything here in English and we will convert it to Binary"></textarea>
+    <button id="btn-translate">Translate</button>
+    <small id="translator-text">Translation will come here: 👇</small>
+    <div id="output"></div>
+    <div">
+      <p id="about">Text to Binary is a two step process. </p>
+      <p id="about">Text -> ASCII -> Binary. </p>
+      <p id="about">For example, ASCII(M) -> 77 -> 01001101. </p>
+    </div>
+  </div>
 
-    <script src="app.js" type="text/javascript"></script>
+  <script src="app.js" type="text/javascript"></script>
 </body>
-</html>
+</html>     
