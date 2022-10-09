@@ -28,7 +28,7 @@ function errorHandler(error) {
 }
 
 function functionTranslate(){
-    var txtInputValue = txtInput.value;
+    var txtInputValue = txtInput.value.trim();
 
     if(txtInputValue==""){
         alert("Please enter something to translate");
